@@ -6,10 +6,13 @@
 //
 
 import Foundation
-struct Trip: Identifiable{
-    var id =  UUID()
-    let destination: String
-    let startDate: Date
-    let endDate: Date
-    let notes: String
+import Foundation
+
+struct Trip: Identifiable {
+    let id: UUID
+    var destination: String
+    var startDate: Date
+    var endDate: Date
+    var isCompleted: Bool
+    var notes: String
 }

@@ -14,6 +14,8 @@
 		521275A12C6E1C1500DB9598 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521275A02C6E1C1500DB9598 /* Trip.swift */; };
 		521275A32C6E1D7200DB9598 /* TripListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521275A22C6E1D7200DB9598 /* TripListViewModel.swift */; };
 		521275A52C6E1ED600DB9598 /* TripListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521275A42C6E1ED600DB9598 /* TripListView.swift */; };
+		521275A72C6E2A6700DB9598 /* AddTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521275A62C6E2A6700DB9598 /* AddTripView.swift */; };
+		521275A92C6F2BB400DB9598 /* EditTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521275A82C6F2BB400DB9598 /* EditTripView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		521275A02C6E1C1500DB9598 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 		521275A22C6E1D7200DB9598 /* TripListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListViewModel.swift; sourceTree = "<group>"; };
 		521275A42C6E1ED600DB9598 /* TripListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListView.swift; sourceTree = "<group>"; };
+		521275A62C6E2A6700DB9598 /* AddTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripView.swift; sourceTree = "<group>"; };
+		521275A82C6F2BB400DB9598 /* EditTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTripView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				521275A42C6E1ED600DB9598 /* TripListView.swift */,
+				521275A62C6E2A6700DB9598 /* AddTripView.swift */,
+				521275A82C6F2BB400DB9598 /* EditTripView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,11 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521275A92C6F2BB400DB9598 /* EditTripView.swift in Sources */,
 				521275A52C6E1ED600DB9598 /* TripListView.swift in Sources */,
 				521275A12C6E1C1500DB9598 /* Trip.swift in Sources */,
 				521275A32C6E1D7200DB9598 /* TripListViewModel.swift in Sources */,
 				521275922C6E189D00DB9598 /* ContentView.swift in Sources */,
 				521275902C6E189D00DB9598 /* TravelPlannerApp.swift in Sources */,
+				521275A72C6E2A6700DB9598 /* AddTripView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
